@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+@keyframes dvd{
+    0%{right:0; top:0; color: rgb(255, 0, 0);}
+    20%{right:82.5%; top:40%; color: blue;}
+    40%{right:20%; top:84%; color:rgb(51, 255, 0)}
+    60%{right:70%; top:-5%}
+    80%{right:0; top:80%}
+    100%{right:0; top:0}
+}
+
+.dvd{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 200px;
+    color: #ce0000;
+    font: #fff;
+    width: auto;
+    animation-name: dvd;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+}
